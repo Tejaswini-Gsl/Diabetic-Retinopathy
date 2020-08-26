@@ -182,10 +182,10 @@ clf = svm.SVC(kernel='linear') # Linear Kernel
 
 #Train the model using the training sets
 clf.fit(Xfinal, Yfinal)
-
+#ok
 #Predict the response for test dataset
 y_pred = clf.predict(X_test)
-print(y_pred.shape)
+print(y_pred.shape) 
 print(y_pred)
 print(file_names)
 print(y_test)
